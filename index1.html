@@ -4,18 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Print Hello</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-
-    <pre><h1>*************** ALLWAYS WELCOME TO SAGAR DHAKATE CHAT BOT ****************</h1></pre>
-    <br/>
-
+<div id="h1.2">
+    <header><pre><h1>*************** ALLWAYS WELCOME TO SAGAR DHAKATE CHAT BOT ****************</h1></pre></header>
+</div>
+    
+<div id="main.2">   
+    
+<div id="emp-d">
     <caption>ENTER YOUR DETAILS</caption>
     <br/>
     <input type="text" placeholder="ENTER YOUR FULL NAME">
-    <input type="number" placeholder="ENTER MOBILE NO">
+    <input type="number" placeholder="DATE OF BIRTH 00/00/0000 ">
     <br/>
+</div>
 
+<div id="emp-r">
     <caption>SELECT YOUR RELATION</caption>
     <br/>
     <label for="id1">
@@ -30,9 +36,11 @@
     <label for="id4">
         <input type="radio" value="other" name="relation" id="id4">Other
     </label>
-    <br/>
+    
+</div>
 
-    <caption>SELECT A BEHAVIOR</caption>
+<div id="emp-be">
+    <caption >HOW DO YOU FIND SAGAR BEHAVIOR</caption>
     <br/>
     <select name="behavior">
         <option value="simple">Simple</option>
@@ -41,14 +49,21 @@
         <option value="bastard">Bastard</option>
         <option value="other">Other</option>
     </select>
+</div>
+
+<div id ="emp-me">
+    <caption >SEND A BIRTHDAY MESSAGE FROM HERE !!</caption>
+    <br/>
+    <textarea   name="feedback" id="101" placeholder="Send a birthday message from here!!" rows="2"></textarea>
     <br/>
 
-    <caption>SEND A BIRTHDAY MESSAGE FROM HERE !!</caption>
-    <br/>
-    <textarea name="feedback" id="101" placeholder="Send a birthday message from here!!" rows="2"></textarea>
-    <br/>
+</div>
 
-    <input type="submit" value="Submit">
+
+</div>
+<div id="last" >
+    <input  type="submit" value="Submit">
+    </div>
 
 </body>
 </html>
