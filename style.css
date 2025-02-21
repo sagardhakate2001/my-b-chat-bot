@@ -22,11 +22,13 @@ animation-name:colorAnimate;
    
 }
 
+
 h1
 {
     font-size:75px;
 text-align: center;
 background-color:#1af174;
+
 /* height :200px; */
 
 border-style:solid;
@@ -35,6 +37,23 @@ padding-top:50px;
 width:100%;
     height:100px;
 }
+
+@media (min-width: 320px) and (max-width: 480px)
+{
+    h1{
+        font-size:35px;
+        text-align: center;
+        display: flex;
+     /* height :100px; */
+        
+        /* border-style:solid; */
+        /* border-radius: 100px; */
+        padding-top:5px;
+        width:1500px;
+            height:100%;
+    }
+}
+
 
  #main  
 {
@@ -45,6 +64,9 @@ width:100%;
     width:1000px;
     
 } 
+
+
+
 #pic{
     margin:1000px;
     /* background-color:blue; */
@@ -66,6 +88,31 @@ animation-name:spinAnimate;
     /* animation-delay:0s; */
     animation-iteration-count:infinite;
     
+}
+
+@media (min-width: 320px) and (max-width: 480px)
+{
+    #pic{
+        margin:100px;
+    /* background-color:blue; */
+    /* text-align:center; */
+    height :250px;
+    width:250px;
+    margin-bottom:5px;
+    margin-left: 500px;
+    margin-top:300px;
+    border-color: rgb(0, 255, 26);
+    border-left:blue ;
+    border-right: red;
+    border-width:20px;
+    border-style:solid;
+    border-radius: 50%;
+animation-name:spinAnimate;
+    animation-duration:5s;
+    animation-timing:ease-out;
+    /* animation-delay:0s; */
+    animation-iteration-count:infinite;
+    }
 }
 
 @keyframes spinAnimate
@@ -98,6 +145,18 @@ animation-name:spinAnimate;
     /* image-orientation: from-image; */
     
 }
+@media (min-width: 320px) and (max-width: 480px)
+{
+    #upic{
+        background-size:cover;
+        height :250px;
+        width:250px;
+        border-radius: 50%;
+
+
+    }
+}
+
     
 
 #details{
@@ -114,6 +173,21 @@ width:1500px;
     border-radius:200px;
 
 }
+
+@media (min-width: 320px) and (max-width: 480px)
+{
+    #details{
+        margin-left:200px;
+    margin-top:0px;
+    padding-top:0px;
+height:400px;
+width:1000px;
+    background-color:rgb(51, 208, 240);
+    text-align:center;
+    font-size:35px; 
+    border-radius:200px;
+    }
+}
 /* body{
     background-color:rgb(23, 183, 246);
     
@@ -128,6 +202,16 @@ width:1500px;
     /* margin-left: 1800px; */
     margin-top: 50px;
 }
+@media (min-width: 320px) and (max-width: 480px)
+  {  #lin{
+
+    padding-left: 100px;
+     margin:0px;
+    /* margin-left: 1800px; */
+    margin-top: 300px;
+ }
+ }
+
 #bot{
     background-color: #00ff22;
     padding-left: 40%;
@@ -137,6 +221,17 @@ width:1500px;
     /* margin-left: 1800px; */
     margin-top: 50px;
 }
+
+@media (min-width: 320px) and (max-width: 480px)
+  {  #bot{
+
+    padding-left: 400px;
+     margin:0px;
+    /* margin-left: 1800px; */
+    margin-top: 50px;
+ }
+ }
+
 #auto{
     background-color:red;
     margin:20px;
@@ -146,6 +241,17 @@ width:1500px;
 }
 
 
+
+@media (min-width: 320px) and (max-width: 480px)
+  {  #auto{
+
+    padding-left:600px;
+     margin:0px;
+    /* margin-left: 1800px; */
+    margin-top: 50px;
+ }
+ }
+
 button{
     text-align:center;
     height:100px;
@@ -153,8 +259,19 @@ button{
     font-size:50px;
     border-radius: 50px;
 }
-/* *********************************************************************8 */
+@media (min-width: 320px) and (max-width: 480px)
+    {
+       button {
+            height:75px;
+      width: 500px;
+       font-size:35px;
+       border-radius: 50px;
+        }
+    }
 
+
+/* *********************************************************************8 */
+/* this is a index1.html css file  start === */
 
 
 #emp-d
@@ -168,6 +285,22 @@ padding-top:100px;
 
 
 }
+@media (min-width: 320px) and (max-width: 480px)
+    {
+        #emp-d{
+
+            margin-top:20px;
+   padding-left:300px;
+font-size:  35px;
+width: 1000px;
+/* text: size adjust 50px; */
+padding-top:100px;
+flex-wrap: wrap;
+/* margin-bottom: 200px; */
+/* text-align: center; */
+    /* justify-content: space-between; */
+  }
+    }
 
 
 #emp-r
@@ -179,6 +312,21 @@ padding-top:100px;
     padding-top:100px;
 
 }
+@media (min-width: 320px) and (max-width: 480px)
+    {
+        #emp-r{
+            height: 20px;
+    width: 1000px;
+
+            margin-top:20px;
+   padding-left:300px;
+font-size:  35px;
+/* text: size adjust 50px; */
+padding-top:100px;
+
+
+        }
+    }
 
 #emp-be{
    
@@ -189,7 +337,21 @@ padding-top:100px;
         padding-top:100px;
     
 }
+@media (min-width: 320px) and (max-width: 480px)
+    {
+        #emp-be{
 
+            margin-top:20px;
+   padding-left:300px;
+font-size:  35px;
+width:1000px;
+
+/* text: size adjust 50px; */
+padding-top:100px;
+
+
+        }
+    }
 
 #emp-me
 {
@@ -200,22 +362,54 @@ padding-top:100px;
 width:1000px;
 padding-top:100px;
 }
+@media (min-width: 320px) and (max-width: 480px)
+    {
+        #emp-me{
+
+            margin-top:20px;
+   padding-left:300px;
+font-size:  35px;
+/* text: size adjust 50px; */
+padding-top:100px;
+width:1000px;
+
+
+        }
+    }
 
 select{
 height: 100px;
 width: 1000px;
 font-size: 50px;
 }
+
+@media (min-width: 320px) and (max-width: 480px)
+    { select
+        {
+            height:50px;
+      width:500px;
+      font-size: 35px;
+        }
+    }
 textarea{
 
     height: 500px;
 width: 1500px;
 font-size: 50px;
 }
+
+@media (min-width: 320px) and (max-width: 480px)
+        { textarea
+        {
+            height:300px;
+      width: 500px;
+      font-size: 35px;
+        }}
 #main.2{
     padding-top:100px;
 
 }
+
 
 
 
@@ -227,6 +421,19 @@ input{
     
     /* margin-top: 50px; */
 font-size:50px;
+border-radius:30px;
+}
+@media (min-width: 320px) and (max-width: 480px)
+{input
+    { height: 40px;
+        width:500px;
+       
+           
+           /* margin-top: 50px; */
+       font-size:30px;
+       border-radius:30px;
+
+    }
 }
 #last{
     padding-left:1500px;
@@ -234,4 +441,12 @@ font-size:50px;
     /* display:inline-block; */
     margin-top:700px;
     /* padding-top:200px; */
+    text-underline: none;
+}
+@media (min-width: 320px) and (max-width: 480px)
+{#last
+    {padding-left: 300px;
+        margin-top: 300px;
+
+    }
 }
